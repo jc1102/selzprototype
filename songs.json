@@ -1,0 +1,50 @@
+[
+{
+"name": "Group Therapy(Radio Edit)",
+"duration": 278,
+"price": 1.99,
+"imgURL": "http://localhost/selzprototype/image/group-therapy.png",
+"author": "Above & Beyond",
+"id": 1
+},
+{
+"name": "Like a Virgin",
+"duration": 312,
+"price": 1.99,
+"imgURL": "http://localhost/selzprototype/image/like-a-virgin.png",
+"author": null,
+"id": 2
+},
+{
+"name": "Single Ladies",
+"duration": 278,
+"price": 1.99,
+"imgURL": "http://localhost/selzprototype/image/single-ladies.png",
+"author": null,
+"id": 3
+},
+{
+"name": "Smells Like Teen Spirit",
+"duration": 312,
+"price": 1.99,
+"imgURL": "http://localhost/selzprototype/image/smells-like-teen-spirit.png",
+"author": null,
+"id": 4
+},
+{
+"name": "Breather(Original Mix)",
+"duration": 278,
+"price": 1.99,
+"imgURL": "http://localhost/selzprototype/image/breather.png",
+"author": null,
+"id": 5
+},
+{
+"name": "Dub In Ya Mind",
+"duration": 312,
+"price": 1.99,
+"imgURL": null,
+"author": null,
+"id": 6
+}
+]

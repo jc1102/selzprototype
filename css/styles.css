@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow);
+body {
+    background-color: #ffffff;
+}
+h1, h2, h3 {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.music_widget {
+    background-color: #ffffff !important;
+    position: relative;
+    width: 60%;
+}
+#music_widget_list{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    margin: 60px auto 0;
+}
+header{
+    height: 50px;
+    padding: 12px 25px;
+}
+header #search {
+    float: right;
+    background-color: #f4f9fa;
+    border-radius: 20px;
+}
+
+#search-input {
+    border-radius: 20px;
+}
+
+#container {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #fdfdfd;
+    height: 350px;
+}
+
+.list-group {
+    list-style: none;
+    margin: 0px;
+}
+.list-group a {
+    color: #555;
+    cursor: pointer;
+}
+.list-group a .row-fluid {
+    border-bottom: 1px solid #ccc;
+}
+.list-group button {
+    border: 1px solid #6d48cc;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+    border-radius: 5px;
+}
+.active .span7 span {
+    width: 50px;
+    overflow: hidden;
+}
+.display {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    margin: 0 auto 0;
+}
+
+.display button {
+    border: 1px solid #6d48cc;
+    height: 33px;
+    margin-right: 50px;
+    margin-top: 26px;
+    width: 120px;
+    font-weight: bold;
+    color: #ccc;
+    border-radius: 5px;
+}
+
+.play-bar {
+    border-top: 2px solid #ccc;
+    padding-top: 10px;
+}
+.play-bar .span3 img {
+    cursor: pointer;
+}
+.progress .progress-bar {
+    background-color: #6d48cc;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+    color: #fff;
+    float: left;
+    font-size: 12px;
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+    transition: width 0.6s ease 0s;
+    width: 0;
+}
+
+/* Button Hover CSS*/
+.hover {
+    display: none;
+}
+.normal {
+    display: inline;
+}
+
+button:hover .hover{
+    display: inline;
+}
+button:hover .normal{
+    display: none;
+}
+
